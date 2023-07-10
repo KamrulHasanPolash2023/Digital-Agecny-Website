@@ -33,11 +33,15 @@
 
 /* banner section*/
 
-.banner-section{
+.banner-container{
     height: 100vh;
     background-image: url('./image/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    align-items: center;
+
+
 }
 .btn-common{
     background-color: red;
@@ -47,14 +51,30 @@
     border: none;
     border-radius: 5px;
 }
-.btn-genrl{
-    background-color: rgb(255, 255, 255);
+.btn-gen{
+    background-color: rgb(247, 235, 235);
     color: rgb(0, 0, 0);
-    font-weight: bold;
     padding: 15px 30px;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
+}
+
+.banner{
+    padding-top: 420px;
+    color: rgb(255, 255, 255);
+}
+
+.banner-heading{
+    font-size: 100px;
+    coler: white;
 
 }
 
 
+.banner-info{ 
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
