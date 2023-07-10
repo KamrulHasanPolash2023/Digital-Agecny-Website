@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .navigationbar{
-    height: 120px;
+    height: 100px;
     justify-content: space-around;
     background-color: gray;
     display: flex;
@@ -29,5 +29,32 @@
     list-style: none;
     text-decoration: none;
     color:white
+}
+
+/* banner section*/
+
+.banner-section{
+    height: 100vh;
+    background-image: url('./image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-common{
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.btn-genrl{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
 
 }
+
+
