@@ -71,10 +71,58 @@
 
 }
 
-
 .banner-info{ 
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 20px;
 
+}
+    /*card and profile*/
+
+.service-container{
+    height:100vh;
+    background-color: rgb(218, 214, 214);
+    display:flex;
+}
+
+.proficle section{
+    height: 100px;
+    display: flex;
+    padding: 20px
+
+}
+
+.card-holder-section{
+    display: flex;
+    padding: 20px;
+
+}
+
+.card-downpart{
+    display: flex;
+
+}
+
+.card-4{
+    width: 300px;
+    height: 400px;
+    border: 2px solid white;
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 50px;
+
+}
+
+.picture{
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.profilepic{
+margin-right: 5px solid red;
 }
